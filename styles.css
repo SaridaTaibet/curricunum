@@ -1,0 +1,45 @@
+.bannière {
+    background: rgba(255, 140, 255, 0.36);
+
+}
+
+
+.photo-id{
+    margin-bottom: 9px;
+    margin-top: 1rem;
+    width: 120px;
+    border: black;
+    border-style: solid;
+    background-size: 6px;
+}
+
+h1 {
+    text-align: left;
+    margin-top: 1rem;
+}
+
+h2{
+    text-align: left;
+    font-size: 20px;
+}
+h3{
+    margin-top: 1rem;
+    font-size: 20px;
+}
+i{
+    color: darkolivegreen;
+    margin-right: 6px;
+}
+.width{
+    font-size: 50px;
+}
+.code-postal{
+    margin-top: -1rem;
+}
+.renseignement{
+    margin-left: 2px;
+    margin-top: 4px;
+    border: black 1px;
+    border-style: solid;
+
+}
