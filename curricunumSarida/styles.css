@@ -1,0 +1,165 @@
+.background {
+    background: url("../assets/img/meadow-4320155_1280-1.jpg");
+    background-size: cover;
+    border-radius: 6px;
+    padding-top: 3rem;
+    margin-bottom: 2rem;
+    margin-top: 2rem;
+    height: 450px;
+}
+
+h1 {
+    margin-left: 46rem;
+    margin-top: -8rem !important;
+    font-family: 'Roboto Condensed', sans-serif !important;
+}
+
+h2 {
+    margin-left: 46rem;
+    font-size: 18px;
+    font-family: 'Roboto Condensed', sans-serif !important;
+}
+
+h4 {
+    margin-top: 2rem;
+    margin-left: 1rem;
+    font-size: 20px;
+    font-family: 'Roboto Condensed', sans-serif !important;
+}
+
+h5 {
+    margin-left: 1rem;
+    font-family: 'Roboto Condensed', sans-serif !important;
+}
+
+.photo-id {
+    margin-bottom: 9px;
+    margin-top: -1rem;
+    margin-left: 35rem;
+    width: 150px;
+    height: 130px;
+    border: solid blue;
+    background-size: 6px;
+}
+
+
+.text-integratrice {
+    margin-left: 6rem;
+    margin-bottom: 2rem;
+    padding-top: 17px;
+    border: solid black;
+    border-radius: 6px;
+    height: 100px;
+    width: 930px;
+    font-family: 'Roboto Condensed', sans-serif;
+    line-height: 5px;
+
+}
+
+p, .text-accroche {
+    margin-left: 1rem;
+    line-height: 24px;
+    font-weight: bolder;
+    text-align: left;
+    font-family: 'Roboto Condensed', sans-serif;
+}
+
+.timeline {
+    position: relative;
+    min-height: 811px;
+    overflow-y: hidden;
+}
+
+.timeline-item:before {
+    content: ' ';
+    position: absolute;
+    background-color: green;
+    width: 3px;
+    height: 100%;
+    left: 288px;
+
+}
+
+.timeline-item {
+    margin: 0 4px;
+
+}
+
+.timeline-item-details {
+    display: inline-block;
+    margin-bottom: 64px;
+}
+
+.timeline-item-details-title, .timeline-item-details-marker, .timeline-item-details-description {
+    float: left;
+}
+
+.timeline-item-details-title {
+    color: black;
+    font-size: 12px;
+}
+
+.timeline-item-details-marker {
+    position: relative;
+    z-index: 10;
+    border-radius: 50%;
+    background-color: #FFF;
+    width: 32px;
+    height: 32px;
+    border: 3px solid bisque;
+    margin-left: 4px;
+    transition: transform .3s, background-color .3s;
+}
+
+.timeline-item-details:hover .timeline-item-details-marker {
+    transform: scale(1.4);
+    background-color: #FFF;
+}
+
+.timeline-item-details-description {
+    padding: 16px;
+    color: beige;
+    background-color: #FFF;
+    width: 400px;
+    border-radius: 4px;
+    margin-left: 4px;
+    margin-top: -20px;
+    word-wrap: break-word;
+    opacity: .9;
+    transition: opacity .3s;
+}
+
+.timeline-item-details:hover .timeline-itme-details-description {
+    opacity: 1;
+
+}
+
+p {
+    line-height: 6px;
+}
+
+li {
+    list-style-type: none;
+}
+
+li:before {
+    content: "- "; /* on affiche une chaîne de caractère */
+}
+
+.text-contact {
+    font-family: 'Roboto Condensed', sans-serif;
+    margin-left: 2rem;
+}
+
+.code-postal {
+    text-align: left;
+    margin-left: 2rem;
+    font-family: 'Roboto Condensed', sans-serif;
+}
+
+.fas {
+    margin-bottom: 4px;
+    padding-right: 12px;
+    color: blue;
+}
+
